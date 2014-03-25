@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Hacking Day</title>
+
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="firasans/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/conferencia.css">
+    <script src='js/slides.js'></script>
+  </head>
+
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+
+
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+          Basic app from the scratch
+        </h1>
+        <p>
+          https://github.com/firefoxosedu/basic_app
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Partnership
+        </h1>
+        <p>
+          Telefonica <strong id="red-heart">♥</strong> Mozilla Firefox
+        </p>
+      </article>
+
+      <article>
+        <section id="borja" class="profile">
+          <strong>Borja Salguero (@borjasalguero)</strong><br>
+          FirefoxOS Frontend Engineer. Web technologies passionate and Vespa enthusiast.
+        </section>
+        <section id="francisco" class="profile">
+          <strong>Francisco Jordano (@mepartoconmigo)</strong><br>
+          Metal head \m/. FirefoxOS addict. Software handcrafter.
+        </section>
+      </article>
+
+      <article>
+        <h1>
+          What is an app?
+        </h1>
+        <p>
+          HTML + JS + CSS + Manifest
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Is a standard?
+        </h1>
+        <p>
+          http://w3c.github.io/manifest/
+        </p>
+      </article>
+
+      <article>
+        manifest.webapp
+        <pre>
+{
+  "name": "FirefoxOSApp",
+  "description": "Basic app",
+  "launch_path": "/index.html",
+  "orientation": "portrait",
+  "developer": {
+    "name": "Borja Salguero & Francisco Jordano",
+    "url": "https://github.com/firefoxosedu"
+  },
+  "permissions": {
+    "desktop-notification":{}
+  },
+  "icons": {
+    "128": "/icons/128.jpg",
+    "60": "/icons/60.jpg"
+  }
+}
+        </pre>
+      </article>
+
+      <article>
+        <h1>
+          Where is the manifest file?
+        </h1>
+        <p>
+          In the root folder of your app!
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Type of apps
+        </h1>
+        <p>
+          Hosted vs Packaged
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Packaged apps
+        </h1>
+        <p>
+          Privileged vs Certified
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Permissions
+        </h1>
+        <p>
+          Name of the permission & level
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Launch patch
+        </h1>
+        <p>
+          Defines the entry point of your app
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Activities & Messages
+        </h1>
+        <p>
+          Defines how to communicate with other apps
+        </p>
+      </article>
+
+      <article>
+        <h1>
+          Need more info?
+        </h1>
+        <p>
+          https://developer.mozilla.org/en-US/Apps/Build/Manifest
+        </p>
+      </article>
+      <article class='biglogo2'>
+      </article>
+
+    </section>
+
+  </body>
+</html>
